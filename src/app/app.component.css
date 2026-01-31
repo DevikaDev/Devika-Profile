@@ -1,0 +1,19 @@
+.main_bg{
+    position: relative;
+    z-index: 0;
+    opacity: 1;
+    background-color: rgba(5,8,22,1);
+}
+.bg_image{
+    width: calc(100vw);
+    height: calc(100vh);
+    background-image: url('../../public/assets/images/home_bg.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* .navbar_bg{
+    width: calc(100vw);
+    height: calc(15vh);
+    background-color: #FFFFFF;
+} */

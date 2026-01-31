@@ -1,0 +1,77 @@
+.contact-container-p {
+    /* max-width: 48rem; */
+}
+
+.section-container {
+    max-width: 80rem;
+    transform: none;
+    opacity: 1;
+    padding: 2.5rem 2.5rem;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+
+    .contact-container{
+        flex-direction: row;
+        display: flex;
+        gap: 2.5rem;
+        overflow: hidden;
+        margin-top: 3rem;
+        flex-direction: row;
+    }
+
+    .contact-sub-container{
+        background: #100D25;
+        flex: 0.75;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    .textColor {
+        font-size: 18px;
+        color: #AAA6c3;
+    }
+
+    .textColor1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 800;
+    }
+
+    .widthAlign {
+        color: #AAA6c3;
+        max-width: 48rem !important;
+        font-size: 17px;
+        line-height: 4rem;
+        /* gap:2rem; */
+    }
+
+    .labelText{
+        color: #fff;
+    }
+    .textInput {
+        background: #151030;
+        width: 100%;
+        padding: 1rem;
+        font-size: 1rem;
+        box-shadow: none;
+        border: none;
+        border-radius: 0.6rem;
+    }
+
+
+}
+
+.btn-send{
+    padding: 0.5rem 2rem;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.8rem;
+    background: #151030;
+    border: 1px solid #100D25;
+}
+
+#contact-name, #contact-mail, #contact-message{
+    color: #AAA6c3;
+}

@@ -1,0 +1,18 @@
+<div class="navbar-container">
+    <div class="navbar-subcontainer">
+        <a href="/" class="navbar-title" (click)="setActive('')">
+            <p>
+                Devika &nbsp;| Portfolio
+            </p>
+        </a>
+        <ul class="navbar-list">
+            <li class="nav-item" *ngFor="let item of navLinksArray" key="item.id"
+              (click)="setActive(item.title)">
+              <!-- "active === item.title ? '#fff' : '#AAA6C3'" -->
+                <a
+                    href="#{{item.id}}">{{item.title}}</a>
+            </li>
+        </ul>
+
+    </div>
+</div>

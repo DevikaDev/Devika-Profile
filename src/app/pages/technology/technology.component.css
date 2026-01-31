@@ -1,0 +1,55 @@
+.project-container {
+    max-width: 80rem;
+    transform: none;
+    opacity: 1;
+    padding: 2.5rem 2.5rem;
+    position: relative;
+    z-index: 0;
+    margin: 0 auto;
+
+    .textColor {
+        font-size: 18px;
+        color: #AAA6c3;
+    }
+
+    .textColor1 {
+        font-size: 60px;
+        color: #fff;
+        font-weight: 800;
+    }
+
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    gap: 10px;
+    margin-top: 10px;
+    transform: none;
+    opacity: 1;
+}
+
+.image-container {
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .image-custom {
+        width: 4rem;
+        height: 4rem;
+        object-fit: contain;
+        margin-bottom: 0.5rem;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+
+    .text-custom p {
+        font-size: 18px;
+        color: #AAA6c3;
+    }
+}

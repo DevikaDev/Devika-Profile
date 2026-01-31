@@ -1,0 +1,12 @@
+<section id="projects" class="project-container">
+    <div>
+        <p class="textColor">My TECHNICAL EXPERTISE</p>
+        <h1 class="textColor1">Technologies.</h1>
+    </div>
+    <div class="logo-container">
+        <div *ngFor="let item of techArray" key="item.name" class="image-container" >
+            <img class="image-custom" src="{{item.icon}}" alt="{{item.name}}"/>
+            <p class="text-custom">{{item.name}}</p>
+        </div>
+    </div>
+</section>
