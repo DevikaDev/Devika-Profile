@@ -1,4 +1,6 @@
-# DevikaPortfolio
+# Devika-Profile
+
+We can view the application on stage https://profile-devika.vercel.app/
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.2.
 
